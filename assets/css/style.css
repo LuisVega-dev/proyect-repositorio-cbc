@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  margin: 19px 0 18px 23px;
+}
+
+/*      Navbar      */
+.nav-link.nav-custom {
+  font-family: "Work Sans", system-ui;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+
+.user-login {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 3%;
+}
+
+.user-login a {
+  font-family: "Work Sans", system-ui;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+/*      Breakpoint      */
+
+@media (width < 992px) {
+  .user-login {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
